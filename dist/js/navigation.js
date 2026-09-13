@@ -16,7 +16,7 @@ for (const id of Object.keys(MODULES)) {
 }
 
 function render() {
-  const route = location.hash.slice(1) || 'start';
+  const route = location.hash.slice(1) || 'orientierung';
   $('#main').innerHTML = Object.hasOwn(routes, route) ? routes[route]() : start();
 
   document.querySelectorAll('nav a').forEach(a => {
