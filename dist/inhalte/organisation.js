@@ -79,13 +79,22 @@ const ORGANISATION = {
       "time": ""
     }
   ],
-  "coaches": Array.from({ length: 10 }, () => ({
-    "name": "",
-    "profile": "",
-    "location": "",
-    "availability": "",
-    "image": ""
-  }))
+  "coaches": [
+    {
+      "name": "V. Sell",
+      "profile": "Madame Prompt… pardon?!\n\n„Eine Unterrichtsidee hätte gereicht.\nDie Bildungsrevolution machen wir nach der Pause.“\n\nMeine Rolle:\nFür alle Horizonte zuständig. Für den Durchblick auch. Bildungsrevolutionen bitte vorher anmelden.",
+      "location": "Überall und nirgendwo – ich wusele wahrscheinlich gerade irgendwo herum.",
+      "availability": "",
+      "image": "assets/bitmoji-v-sell.png"
+    },
+    ...Array.from({ length: 9 }, () => ({
+      "name": "",
+      "profile": "",
+      "location": "",
+      "availability": "",
+      "image": ""
+    }))
+  ]
 };
 
 const COACH_STORAGE_KEY = 'ki-horizonte-coach-profiles-v1';
