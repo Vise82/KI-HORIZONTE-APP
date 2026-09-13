@@ -1,0 +1,81 @@
+[
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_A_03_Bildstil/01_A_VERSTEHEN_Lesefassung_6_Seiten.pdf",
+    "target": "assets/material/pruefen-a.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_B_01_Bildstil/01_B_GESTALTEN_Lesefassung_6_Seiten.pdf",
+    "target": "assets/material/pruefen-b.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_A_03_Bildstil/04_KI_Nutzungsfaelle_A3_Farbe.pdf",
+    "target": "assets/material/04_KI_Nutzungsfaelle_A3_Farbe.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_A_03_Bildstil/05_Evidenz_A3_Farbe.pdf",
+    "target": "assets/material/05_Evidenz_A3_Farbe.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_B_Fachkarten_02/01_B_Fachkarten_Gesamtserie_A3_Duplex.pdf",
+    "target": "assets/material/01_B_Fachkarten_Gesamtserie_A3_Duplex.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_B_Fachkarten_02/02_Druckanweisung_und_Fachuebersicht.pdf",
+    "target": "assets/material/02_Druckanweisung_und_Fachuebersicht.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_C_01_Bildstil/03_C1_C2_Wegekarten_A4_Duplex.pdf",
+    "target": "assets/material/pruefen-c.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_C_01_Bildstil/04_C3_und_Detektor_Kleinkarten_A4_Duplex.pdf",
+    "target": "assets/material/04_C3_und_Detektor_Kleinkarten_A4_Duplex.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_C_01_Bildstil/05_C_Tischwerkzeuge_Originalauszuege_A4.pdf",
+    "target": "assets/material/05_C_Tischwerkzeuge_Originalauszuege_A4.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/PRUEFEN_C_01_Bildstil/06_Quernavigation_A_B_C_A4_aktualisiert.pdf",
+    "target": "assets/material/06_Quernavigation_A_B_C_A4_aktualisiert.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/SCHULENTWICKLUNG/01_Ist_Stand_A4_zweiseitig.pdf",
+    "target": "assets/material/momentaufnahme.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/SCHULENTWICKLUNG/04_Arbeitsbogen_Nachmittagsgruppe_A4.pdf",
+    "target": "assets/material/zukunftsatelier.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/SCHULENTWICKLUNG/05_Logbuch_A3.pdf",
+    "target": "assets/material/logbuch.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/SCHULENTWICKLUNG/03_Coach_Karte_A5.pdf",
+    "target": "assets/material/coach-reflexion.pdf"
+  },
+  {
+    "source": "/Users/victoriasell/.codex/.chatgpt-projects/g-p-6a9d361a3c148191b16106f34c5ec5ba/output/pdf/SCHULENTWICKLUNG/02_Horizont_Pinnwand_A3.pdf",
+    "target": "assets/material/02_Horizont_Pinnwand_A3.pdf"
+  },
+  {
+    "source": "digital/PRUEFEN_ABC_01/Bilder/Bereichsmotive.png",
+    "target": "dist/assets/bereichsmotive.png",
+    "use": "Original unverändert; Layoutausschnitt, keine Bildbearbeitung"
+  },
+  {
+    "source": "assets/PRUEFEN_B_01/Motive.png",
+    "target": "dist/assets/werkstattmotive.png",
+    "use": "Original unverändert; Layoutausschnitt, keine Bildbearbeitung"
+  },
+  {
+    "source": "assets/L20_Druckhintergrund.png",
+    "target": "dist/assets/lernhorizont.png",
+    "use": "Original unverändert; Layoutausschnitt, keine Bildbearbeitung"
+  },
+  {
+    "source": "pdf/KI_HORIZONTE_Beschilderung_Final_03.pdf",
+    "target": "dist/assets/material/beschilderung-final-03.pdf"
+  }
+]

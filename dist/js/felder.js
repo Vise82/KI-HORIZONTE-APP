@@ -1,0 +1,1 @@
+function area(k,hint){return `<label for="${k}">${fields[k]}${hint?`<small>${hint}</small>`:''}</label>${k==='titel'?`<input type="text" id="${k}" data-field="${k}" maxlength="20000" value="${esc(state.fields[k])}">`:`<textarea id="${k}" data-field="${k}" maxlength="20000">${esc(state.fields[k])}</textarea>`}<div class="print-only">${esc(state.fields[k])}</div>`}

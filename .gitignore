@@ -1,0 +1,8 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Lokale Python- und Testreste
+__pycache__/
+*.pyc
+coverage/

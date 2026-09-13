@@ -1,0 +1,74 @@
+{
+  "coaches": [
+    {
+      "name": "Mira Schulz",
+      "profile": "Lernbegleitung · Einstieg und Reflexion mit KI",
+      "location": "A1 Entdeckerraum",
+      "availability": "Mo–Do, 10:00–12:00",
+      "image": ""
+    },
+    {
+      "name": "Jonas Berg",
+      "profile": "Unterrichtsentwicklung · Materialanalyse und Aufgabenformate",
+      "location": "A2 Ideenwerft",
+      "availability": "Di–Fr, 09:30–11:30",
+      "image": ""
+    },
+    {
+      "name": "Lea Fischer",
+      "profile": "Prüfen und Evidenz · Leistung sichtbar machen",
+      "location": "B1 Weitblick",
+      "availability": "Mo, Mi, Fr, 11:00–13:00",
+      "image": ""
+    },
+    {
+      "name": "Paul Meier",
+      "profile": "KI-Rollen klären · Aufgaben sicher gestalten",
+      "location": "B2 Perspektivwechsel",
+      "availability": "Di–Do, 13:00–15:00",
+      "image": ""
+    },
+    {
+      "name": "Nina Weber",
+      "profile": "Schulentwicklung · Austausch und Teamreflexion",
+      "location": "C Zukunftsatelier",
+      "availability": "Mo–Fr, 12:30–14:00",
+      "image": ""
+    },
+    {
+      "name": "Theo Keller",
+      "profile": "Selbstlernen · individuelle Lernwege und Rückfragen",
+      "location": "Freier Lernplatz",
+      "availability": "Mo–Fr, 10:30–12:30",
+      "image": ""
+    },
+    {
+      "name": "Sofia Klein",
+      "profile": "Rückmeldung und Begleitung · Lernfortschritt sichtbar machen",
+      "location": "A3 Denkexpedition",
+      "availability": "Mi–Fr, 09:00–11:00",
+      "image": ""
+    },
+    {
+      "name": "Luca Hartmann",
+      "profile": "Digitaler Werkstattbetrieb · technische Fragen und Materialzugang",
+      "location": "Organisationsteam",
+      "availability": "Mo–Fr, 08:30–10:30",
+      "image": ""
+    },
+    {
+      "name": "Emma Schneider",
+      "profile": "Peer-Coaching · Lernprozess begleiten und reflektieren",
+      "location": "A1 Entdeckerraum",
+      "availability": "Di, Do, Fr, 11:30–13:30",
+      "image": ""
+    },
+    {
+      "name": "Noah Braun",
+      "profile": "Austausch und Orientierung · offene Fragen mitnehmen",
+      "location": "Rückzugsbereich / Info",
+      "availability": "Mo–Fr, 12:00–14:00",
+      "image": ""
+    }
+  ]
+}
