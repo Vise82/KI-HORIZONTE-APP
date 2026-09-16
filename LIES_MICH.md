@@ -14,7 +14,7 @@ Teilnehmerpaket vollständig entpacken und `dist/index.html` im Browser öffnen.
 - Bestehende handgezeichnete Motive auf Startseite und Bereichs-/Funktionsansichten. Originalbilder unverändert, nur als Ausschnitt im Layout angezeigt. App-Stil bleibt wie bestätigt.
 
 ## Inhaltspflege
-`dist/inhalte/` enthält getrennte Dateien für Unterricht, Lernen, Prüfen, Schulentwicklung, Selbstlernen und Organisation. `organisation.js` ist die gemeinsame Stelle für Räume, Zeiten und Coach-Profile. Keine Platzhalterpersonen oder erfundenen Raum-/Zeitdaten.
+`dist/inhalte/` enthält getrennte Dateien für Unterricht, Lernen, Prüfen, Schulentwicklung, Selbstlernen und Organisation. `organisation.js` ist die gemeinsame Stelle für Räume, Zeiten und Coach-Profile. Keine Platzhalterpersonen oder erfundenen Raum-/Zeitdaten. Die zehn Coach-Anleitungen liegen in `dist/coach-material/` und werden erst im geöffneten Coach-Bereich verlinkt.
 
 `dist/js/` trennt persönliche Speicherung, Feldanzeige, wiederverwendbare Arbeitsweg-Darstellung, Navigation und die einzelnen Hauptansichten. `style.css` enthält die Gestaltung. `assets/material/` enthält die hinterlegten Originalmaterialien.
 
