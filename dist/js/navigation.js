@@ -8,7 +8,8 @@ const routes = {
   pruefen: examining,
   schulentwicklung: school,
   notizen: notesView,
-  'karte-drucken': cardPrint
+  'karte-drucken': cardPrint,
+  ueber: about
 };
 
 for (const id of Object.keys(MODULES)) {
@@ -26,7 +27,7 @@ function render() {
 
   document.title = 'KI HORIZONTE · ' + (
     MODULES[route]?.title ||
-    { unterricht: 'Mein Vorhaben', speicher: 'Mein Arbeitsstand', orientierung: 'Der Tag', coaches: 'Coaches' }[route] ||
+    { unterricht: 'Mein Vorhaben', speicher: 'Mein Arbeitsstand', orientierung: 'Der Tag', coaches: 'Coaches', ueber: 'Über diese App' }[route] ||
     'Horizonte'
   );
 
