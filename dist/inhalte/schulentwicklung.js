@@ -83,6 +83,10 @@ Object.assign(MODULES, {
       {
         "label": "Originalmaterial als PDF",
         "url": "assets/material/coach-reflexion.pdf"
+      },
+      {
+        "label": "Karte 'Coach-Blick zurück' zum Ausdrucken",
+        "url": "assets/material/coach-blick-zurueck.pdf"
       }
     ]
   },
@@ -120,6 +124,25 @@ Object.assign(MODULES, {
       {
         "label": "Vier leere A6-Karten auf A4 drucken",
         "url": "assets/rueckmeldekarten.pdf"
+      }
+    ]
+  },
+  "coach-feedback": {
+    "id": "coach-feedback",
+    "title": "Rückmeldung an die Coaches",
+    "intro": "Für alle Teilnehmenden. Freiwillig, gerne anonym. Fürs Orga-Team.",
+    "steps": [
+      {
+        "id": "gedanke",
+        "title": "Und du hast noch einen Gedanken?",
+        "body": "Ein Aha. Ein „Och nö“. Eine Idee fürs nächste Mal. Oder etwas, das einfach mal gesagt werden muss. Hier ist Platz dafür. Kein Prompt nötig. Deine Worte reichen.",
+        "note": "Mein Gedanke"
+      }
+    ],
+    "resources": [
+      {
+        "label": "Karte 'Noch ein Gedanke?' zum Ausdrucken",
+        "url": "assets/noch_ein_gedanke.pdf"
       }
     ]
   }

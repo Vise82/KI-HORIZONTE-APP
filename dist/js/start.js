@@ -7,6 +7,5 @@ function start(){
       <article class="horizon rose"><div class="room">C · Zukunftsatelier</div>${visual('dialog',true)}<h2>Schulentwicklung</h2><p>Erfahrungen mitnehmen und freiwillig Gedanken für unsere gemeinsame Weiterarbeit abgeben.</p><a href="#schulentwicklung">Zum Zukunftsatelier</a></article>
     </div>
     <div class="subtle"><h3>Dein Freiraum</h3><p>Du möchtest Grundlagen erkunden oder deinem eigenen Interesse folgen? Suche dir einen freien Arbeitsplatz. Das gedruckte Begleitheft steht dir in jedem Horizont zur Verfügung.</p><a href="#selbstlernen">Zum Selbstlernen</a></div>
-    <div class="subtle"><h3>Deine persönliche Rückmeldung</h3><p>Ein Gedanke reicht. Du entscheidest, ob du deine Rückmeldekarte ausfüllst und abgibst.</p><a class="button" href="#rueckmeldung">Rückmeldekarte ausfüllen</a><p class="meta section-title"><a href="assets/rueckmeldekarten.pdf" target="_blank" rel="noopener">Vier A6-Karten auf A4 drucken</a></p></div>
     ${hasNotes()?`<div class="actions"><a class="button secondary" href="#speicher">Mein Vorhaben wieder aufnehmen</a></div>`:''}`;
 }
