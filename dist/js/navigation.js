@@ -102,7 +102,8 @@ document.addEventListener('click', async e => {
 
   if (act === 'coach-admin') {
     const password = window.prompt('Passwort für die Coach-Redaktion eingeben:');
-    if (password === 'Windstaerke10') {
+    const normalizedPassword = typeof password === 'string' ? password.normalize('NFKC').trim() : '';
+    if (normalizedPassword === 'Windstaerke10') {
       window.__coachEditorOpen = true;
       render();
       notify('Coach-Redaktion geöffnet.');
