@@ -82,6 +82,7 @@ const ORGANISATION = {
   "coaches": [
     {
       "name": "V. Sell",
+      "horizon": "Organisation",
       "profile": "Madame Prompt… pardon?!\n\n„Eine Unterrichtsidee hätte gereicht.\nDie Bildungsrevolution machen wir nach der Pause.“\n\nMeine Rolle:\nFür alle Horizonte zuständig. Für den Durchblick auch.",
       "location": "Überall und nirgendwo – ich wusele wahrscheinlich gerade irgendwo herum.",
       "availability": "",
@@ -92,7 +93,8 @@ const ORGANISATION = {
       "profile": "",
       "location": "",
       "availability": "",
-      "image": ""
+      "image": "",
+      "horizon": ""
     }))
   ]
 };
@@ -106,16 +108,19 @@ function normalizeCoachProfiles(value) {
     "profile": "",
     "location": "",
     "availability": "",
-    "image": ""
+    "image": "",
+    "horizon": ""
   }));
   return defaults.map((slot, index) => {
     const current = source[index] || {};
+    const defaultHorizon = current.horizon ?? (current.name && current.name === ORGANISATION.coaches[index]?.name ? ORGANISATION.coaches[index].horizon : '');
     return {
       "name": String(current.name || '').slice(0, 80),
       "profile": String(current.profile || '').slice(0, 240),
       "location": String(current.location || '').slice(0, 120),
       "availability": String(current.availability || '').slice(0, 120),
-      "image": String(current.image || '').slice(0, 500)
+      "image": String(current.image || '').slice(0, 500),
+      "horizon": String(defaultHorizon).trim().slice(0, 40)
     };
   });
 }

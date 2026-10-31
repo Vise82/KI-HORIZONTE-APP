@@ -2,28 +2,31 @@ Object.assign(MODULES, {
   "pruefen-a": {
     "id": "pruefen-a",
     "title": "A · VERSTEHEN",
-    "intro": "Prüfziel, Zurechenbarkeit und Evidenz. Wähle deinen Einstieg; ein vollständiger Durchlauf ist nicht erforderlich.",
+    "intro": "Wähle deinen Einstieg: Prüfziel (S. 1), KI-Anteil (S. 4), Evidenz (S. 7) oder KI-Test (S. 10). Die Bereiche sind keine Pflichtreihenfolge.",
     "steps": [
       {
         "id": "1",
         "title": "Prüfziel",
         "body": "A1 · PRÜFZIEL\nWas wollen Sie\neigentlich prüfen?\nEine Schülerin gibt eine sehr gute häusliche Leistung ab:\nfachlich richtig, gut strukturiert, überzeugend formuliert.\nDigitale Hilfsmittel waren erlaubt. Ob und wie sie KI\ngenutzt hat, wissen Sie nicht.\nHat die Schülerin\nKI benutzt?\nWelche Leistung\nwollte ich prüfen?\nDie Schülerin sollte zeigen, dass sie …\nWas davon erkenne ich am fertigen Ergebnis?\nKönnte ein überzeugendes Ergebnis entstehen, obwohl die Schülerin diese\nLeistung nicht selbst beherrscht?\neher nein\nvielleicht\ndurchaus\nEine gute Leistung ist nicht automatisch\nein guter Nachweis von Leistung.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-a-neu.pdf#page=1"
+        "pdf": "assets/material/pruefen-a-neu.pdf#page=1",
+        "morePages": [2, 3]
       },
       {
         "id": "2",
-        "title": "Zurechenbarkeit",
-        "body": "A2 · ZURECHENBARKEIT\nWer leistet\nhier was?\nKI-Nutzung ist nicht gleich KI-Nutzung.\nNehmen Sie zwei oder drei Fallkarten. Ordnen\nSie sie auf dem Tisch an: Wie stark greift KI in\ndie Schülerleistung ein? Vergleichen Sie Ihre\nEinschätzungen.\nKAUM EINGRIFF\nSEHR STARKER EINGRIFF\nNoch einmal hinschauen\nWählen Sie einen Fall. Was müsste geprüft werden, damit Sie beurteilen\nkönnen, ob KI die Schülerleistung unterstützt oder ersetzt?\nVerändert sich Ihre Einschätzung? Verschieben Sie die Karte.\nFür meine Einschätzung ist entscheidend …\nNicht die Menge der KI-Nutzung entscheidet.\nEntscheidend ist, welchen Teil der zu prüfenden Leistung die KI\nübernimmt.",
+        "title": "KI-Anteil",
+        "body": "A2 · ZURECHENBARKEIT\nWer leistet hier was?\nKI kann Ideen geben, Rückmeldung liefern oder einen ganzen Lösungsweg erzeugen. Die Bezeichnung „mit KI“ sagt noch wenig über die Eigenleistung.\n\nArbeitsschritte unterscheiden\nEine Aufgabe enthält oft mehrere Tätigkeiten: Informationen auswählen, planen, begründen, formulieren und überarbeiten. Schau nicht nur auf das fertige Produkt. Frage, welche Tätigkeiten von den Schülern stammen und welche KI übernimmt.\n\nAm Prüfziel einordnen\nEine Formulierungshilfe kann bei einem fachlichen Urteil unterstützen. Wird die sprachliche Gestaltung selbst geprüft, kann dieselbe Hilfe einen zentralen Anteil übernehmen. Entscheidend ist, was dein Prüfziel verlangt.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-a-neu.pdf#page=4"
+        "pdf": "assets/material/pruefen-a-neu.pdf#page=4",
+        "morePages": [5, 6]
       },
       {
         "id": "3",
         "title": "Evidenz",
-        "body": "A3 · EVIDENZ\nWas macht Können\nsichtbar?\nEvidenz sind Hinweise, an denen Schülerleistung erkennbar wird. Manchmal reicht das\nErgebnis. Manchmal braucht es einen zusätzlichen Blick.\nPRODUKT\nPROZESS\nERKLÄRUNG\nANWENDUNG\nNehmen Sie eine eigene Aufgabe in den Blick. Nutzen Sie die Evidenzvorlage am\nTisch.\nReicht meine bisherige Aufgabe aus,\num die zentrale Schülerleistung zu erkennen?\nja\nteilweise\nnein\nFalls teilweise oder nein:\nWelche kleinste zusätzliche Information\nwürde mir wirklich weiterhelfen?\nMehr Evidenz muss nicht mehr Korrektur bedeuten.\nSie kann klein sein. Sie muss nur aussagekräftig sein.",
+        "body": "A3 · EVIDENZ\nWoran erkennst du das Können?\nEvidenz meint Hinweise, auf die du deine Einschätzung einer Leistung stützt. Die Frage ist: Welche Information hilft bei genau diesem Prüfziel?\n\nVier mögliche Zugänge\nDas PRODUKT zeigt ein Ergebnis. Der PROZESS zeigt einen relevanten Schritt auf dem Weg. Eine ERKLÄRUNG macht Gründe oder Zusammenhänge sichtbar. Eine ANWENDUNG zeigt, ob das Können in einem veränderten Fall trägt.\n\nKeine feste Reihenfolge\nDie vier Zugänge sind gleichwertige Möglichkeiten, keine Pflichtliste. Je nach Prüfziel reicht das Produkt. In anderen Fällen hilft eine kurze Erklärung mehr als viele gespeicherte Zwischenschritte.\n\nDeine Anwendung\nNimm die eigene Aufgabe und dein Prüfziel aus A1. Nutze bei Bedarf die Evidenzvorlage am Tisch. Wenn die bisherige Aufgabe ausreicht, ergänze nichts. Sonst: Welche kleinste Information würde dir helfen?",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-a-neu.pdf#page=7"
+        "pdf": "assets/material/pruefen-a-neu.pdf#page=7",
+        "morePages": [8, 9]
       },
       {
         "id": "4",
@@ -35,14 +38,14 @@ Object.assign(MODULES, {
       {
         "id": "5",
         "title": "KI-Test · Folgerungen",
-        "body": "A4 · KI-TEST / II\nWas heißt das für\nmeine Aufgabe?\nSchauen Sie noch einmal auf Ihren Vergleich von Seite 4.\nKann ich am fertigen Ergebnis erkennen, dass der Schüler die zu\nprüfende Leistung selbst erbracht hat?\nja\nteilweise\neher nicht\nWas folgt daraus?\nNichts Grundsätzliches\nMeine Aufgabe funktioniert weiterhin gut.\nKI-Rolle klären\nWas darf KI? Was muss der Schüler selbst leisten?\nEvidenz ergänzen\nEine kleine zusätzliche Information macht die Leistung sichtbar.\nAufgabe verändern\nEinzelne Teile sollten überarbeitet werden.\nNeu nachdenken\nDie Aufgabe zeigt die zu prüfende Schülerleistung nicht mehr zuverlässig.",
+        "body": "A4 · KI-TEST / EIN BEISPIEL\nDie Antwort überzeugt. Was folgt daraus?\nPrüfe am Beispiel, welche zentrale Tätigkeit die KI übernommen hat und ob das Ergebnis noch erkennen lässt, was die Schüler selbst geleistet haben.\n\nMeine Folgerung\nWelche Konsequenz passt zu meinem Prüfziel: nichts Grundsätzliches ändern, die KI-Rolle klären, Evidenz ergänzen oder die Aufgabe verändern?",
         "note": "Meine Gedanken und Entscheidungen",
         "pdf": "assets/material/pruefen-a-neu.pdf#page=11"
       },
       {
         "id": "6",
         "title": "Mein Horizont",
-        "body": "A4 · MEIN HORIZONT\nMein Horizont\nWas nehmen Sie aus Ihrem Versuch mit?\nEine Sache, die ich nach\ndiesem Test anders sehe …\nEine Frage, die für mich\noffen bleibt …\nSie möchten eine eigene Aufgabe weiterentwickeln?\nWeiter zu B · GESTALTEN.\nFür heute genug geklärt? Nehmen Sie Ihre Gedanken mit.",
+        "body": "A4 · KI-TEST / MEIN HORIZONT\nFüge deine unveränderte Aufgabe in deine KI ein. Lass Namen und personenbezogene Schülerdaten weg.\n\n„Bearbeite diese Aufgabe vollständig.“\n\nDie KI übernimmt …\nDie Schüler sollen zeigen …\nWas folgt für meine Aufgabe?\nSie funktioniert · KI-Rolle klären · Evidenz ergänzen · Aufgabe verändern\n\nEine Sache, die ich jetzt anders sehe …\nEine Frage bleibt …\nDu möchtest deine Aufgabe weiterentwickeln? Weiter zu B · GESTALTEN.",
         "note": "Meine Gedanken und Entscheidungen",
         "pdf": "assets/material/pruefen-a-neu.pdf#page=12"
       }
@@ -57,35 +60,39 @@ Object.assign(MODULES, {
   "pruefen-b": {
     "id": "pruefen-b",
     "title": "B · GESTALTEN",
-    "intro": "Arbeite an deiner eigenen Aufgabe. Prüfziel, KI-Rolle und notwendige Evidenz bestimmen die Veränderung.",
+    "intro": "Wähle den passenden Einstieg: Prüfziel (S. 1), KI-Rolle (S. 4), Evidenz (S. 7), Überarbeiten (S. 10) oder Gegencheck (S. 13).",
     "steps": [
       {
         "id": "1",
         "title": "Klären",
         "body": "B1 · KLÄREN\nWas sollen Ihre Schüler\nhier wirklich zeigen?\nIhre eigene Aufgabe ist der Ausgangspunkt.\nAufgabe\nöffnen\nIhr Leistungsnachweis\nauf dem Dienst-iPad.\nOperator\ndanebenlegen\nDie Karte Ihres Faches:\nWas fordert der Auftrag?\nAnspruch\nvergleichen\nPassen Ziel, Material und\nerwartete Leistung dazu?\nDarauf kommt es mir an.\nEin Gedanke. Ein Wort. Eine Skizze.\nDie KI liefert\nein perfektes\nErgebnis.\nWas wissen Sie jetzt\nüber das Können Ihrer\nSchüler?\nArbeiten Sie dort weiter, wo Ihre Aufgabe eine offene Frage hat.\nIhr Prüfziel ist klar? Dann weiter zu B2 · ENTSCHEIDEN.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-b-neu.pdf#page=1"
+        "pdf": "assets/material/pruefen-b-neu.pdf#page=1",
+        "morePages": [2, 3]
       },
       {
         "id": "2",
         "title": "Entscheiden",
         "body": "B2 · ENTSCHEIDEN\nWelche Rolle soll KI\nbei dieser Aufgabe spielen?\nJetzt kennen Sie Ihr Prüfziel. Welche Rolle passt dazu?\nWERKZEUG\nKI erleichtert einzelne\nArbeitsschritte, ohne die\nzentrale Leistung zu\nübernehmen.\nUNTERSTÜTZUNG\nKI gibt Ideen, Rückmeldung\noder Hilfen. Die zentrale\nLeistung bleibt beim Schüler.\nPRÜFGEGENSTAND\nDer Umgang mit KI selbst\ngehört zur Leistung: prüfen,\nauswählen, bewerten,\nverbessern …\nÜbernimmt KI genau die Leistung,\ndie ich eigentlich prüfen möchte?\nWenn ja: KI ersetzt die Prüfleistung – Substitution.\nPrüfen Sie auch, ob das vom konkreten KI-Einsatz abhängt.\nFür diese Aufgabe …\nKI wird nicht benötigt.\nKI darf genutzt werden.\nKI soll gezielt genutzt werden.\nDer Umgang mit KI selbst\nist Teil der geprüften Leistung.\nKI darf dabei …\nDas müssen die Schüler\nselbst leisten …\nWenn KI vorgesehen ist: Können alle unter vergleichbaren Bedingungen darauf zugreifen? Was müssen\nSie noch klären?\nKI-Rolle klar? Weiter zu B3. Noch unsicher? Zurück zum Prüfziel in B1.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-b-neu.pdf#page=4"
+        "pdf": "assets/material/pruefen-b-neu.pdf#page=4",
+        "morePages": [5, 6]
       },
       {
         "id": "3",
-        "title": "Sichtbar machen",
-        "body": "B3 · SICHTBAR MACHEN\nWoran kann ich die\nSchülerleistung erkennen?\nPrüfziel und KI-Rolle sind geklärt. Jetzt der Blick auf die eigene Aufgabe:\nKann ich ausreichend erkennen, ob die Schülerinnen und Schüler die\nzentrale Leistung selbst erbracht haben?\nja\nteilweise\nnein\nWenn ja:\nnichts hinzufügen.\nZusätzliche Evidenz ist kein\nSelbstzweck.\nDirekt weiter zu B4.\nWenn teilweise oder nein:\nNutzen Sie die Tischvorlage\nSCHÜLERLEISTUNG SICHTBAR MACHEN.\nWo wird die fehlende Information sichtbar?\nPRODUKT\nPROZESS\nERKLÄRUNG\nANWENDUNG\nIch möchte besser erkennen können, ob die Schüler …\nDafür würde mir helfen …\nPasst die Ergänzung genau zum Prüfziel? Bringt sie mehr Erkenntnis als Aufwand? Sonst: kleiner denken\noder weglassen.\nMeine kleinste sinnvolle Evidenz steht – oder ich brauche keine. Weiter zu B4.",
+        "title": "Sichtbarkeit prüfen",
+        "body": "B3 · SICHTBAR MACHEN\nWelche Information brauchst du?\nPrüfziel und KI-Rolle stehen. Nun prüfst du, ob deine Aufgabe die zentrale eigene Leistung ausreichend sichtbar macht.\n\nMit dem Vorhandenen beginnen\nVielleicht reichen Produkt und Bearbeitungsbedingungen bereits aus. Dann ergänze nichts. Zusätzliche Evidenz ist kein Selbstzweck. Frage konkret, was du noch nicht erkennen kannst, bevor du weitere Nachweise verlangst.\n\nPassende Evidenz auswählen\nProdukt, Prozess, Erklärung und Anwendung sind vier mögliche Zugänge. Eine kurze Erläuterung einer Entscheidung kann passender sein als ein vollständiger Chatverlauf. Wähle einen Hinweis, der zu Prüfziel und KI-Rolle passt. Nutze bei Bedarf die Evidenzvorlage am Tisch.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-b-neu.pdf#page=7"
+        "pdf": "assets/material/pruefen-b-neu.pdf#page=7",
+        "morePages": [8, 9]
       },
       {
         "id": "4",
         "title": "Verändern",
         "body": "B4 · VERÄNDERN / I\nWas muss ich wirklich\nan meiner Aufgabe ändern?\nPrüfziel · KI-Rolle · notwendige Evidenz\nNicht mehr Aufgabe. Mehr Aussagekraft.\nAuftrag schärfen\nAuftrag bzw. Operator macht deutlicher, welche Leistung erwartet wird.\nKI-Rolle klären\nEs wird klar, was KI darf, soll oder nicht übernehmen darf.\nEvidenz einbauen\nEine kleine zusätzliche Information macht die zentrale Schülerleistung sichtbar.\nAufgabenarchitektur verändern\nDie Aufgabe erhält einen anderen Aufbau oder eine sinnvollere Abfolge.\nNichts Grundlegendes\nMeine Aufgabe funktioniert. Ich ändere nur einzelne Formulierungen.\nFalls Sie den Aufbau verändern\n/  grundlegender     //  mittlerer     ///  komplexerer Anspruch\nPasst die Abfolge zu dem, was die Schüler am Ende zeigen sollen?\nAufgabe und Bewertung\nWird genau die sichtbar gemachte Leistung tatsächlich bewertet?\nJa · Bewertung / Erwartungshorizont anpassen · Zusätzliche Information dient nur der Absicherung und wird nicht\neigenständig bewertet.\nWeiter auf dem Werkblatt. Optional: Digitalprompt 1 · Aufgabe kritisch prüfen.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-b-neu.pdf#page=10"
+        "pdf": "assets/material/pruefen-b-neu.pdf#page=10",
+        "morePages": [11]
       },
       {
         "id": "5",
@@ -99,7 +106,8 @@ Object.assign(MODULES, {
         "title": "Prüfen",
         "body": "B5 · PRÜFEN\nWürde ich diese Aufgabe\nso einsetzen?\nNehmen Sie Ihre überarbeitete Aufgabe noch einmal in den Blick.\nPRÜFZIEL\nEs ist klar, welche fachliche Leistung ich prüfen möchte.\nKI-ROLLE\nEs ist klar, was KI darf, soll oder nicht übernehmen darf.\nEIGENLEISTUNG\nDie zentrale Leistung bleibt den Schülerinnen und Schülern zurechenbar.\nEVIDENZ & BEWERTUNG\nIch kann die zentrale Leistung ausreichend erkennen; meine Bewertung passt dazu.\nPRAXIS\nAufgabe, KI-Zugang, Zeitaufwand und Korrektur sind unter meinen Bedingungen realistisch.\nWo würde ich meiner Aufgabe noch nicht ganz trauen?\nWenn Sie möchten: 5-Minuten-Gegencheck\nGeben Sie nur die überarbeitete Aufgabe an eine Kollegin oder einen Kollegen weiter. Die andere Person\nbeantwortet:\nWas sollen die Schüler hier selbst zeigen?\nWo könnte KI diese zentrale Leistung verdecken oder übernehmen?\nVergleichen Sie mit B1/B2. Alternativ: Digitalprompt 2 · Gegencheck.\nMein letzter Schritt\nSo einsetzen · Noch ändern · Darüber möchte ich mich austauschen\nWas kann ich jetzt besser über das Können\nmeiner Schülerinnen und Schüler herausfinden?",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-b-neu.pdf#page=13"
+        "pdf": "assets/material/pruefen-b-neu.pdf#page=13",
+        "morePages": [14, 15]
       }
     ],
     "resources": [
@@ -126,42 +134,46 @@ Object.assign(MODULES, {
   "pruefen-c": {
     "id": "pruefen-c",
     "title": "C · HANDELN",
-    "intro": "JETZT – KORREKTUR – GEMEINSAM. Nutze für die Fallarbeit die fachkundige Begleitung und das gedruckte Sek-I-Heft. C3 sammelt Klärungsbedarf; hier werden keine Schulregeln beschlossen.",
+    "intro": "Wähle deinen Einstieg: während einer Leistung (S. 1), bei der Korrektur (S. 4), im Gespräch (S. 7) oder zum gemeinsamen Klären (S. 10). Die Vertiefungslektüre ist freiwillig.",
     "steps": [
       {
         "id": "1",
         "title": "JETZT · während einer Leistung",
-        "body": "C1 · JETZT\nDas Smartphone\nfällt heraus.\nWährend einer Klassenarbeit fällt einem Schüler ein\nausgeschaltetes Smartphone aus der Jackentasche. Es\nhätte vor Beginn am vorgesehenen Ort hinterlegt\nwerden müssen. Eine Nutzung haben Sie nicht\nbeobachtet.\nWas tun Sie jetzt?\nEntscheiden Sie spontan. 30–60 Sekunden reichen.\nWas wissen Sie tatsächlich –\nund was vermuten Sie nur?\nErst die eigene Reaktion besprechen.\nDann umdrehen und mit der Mappe vergleichen.",
+        "body": "C1 · JETZT\nEin Verdacht. Was jetzt?\nWähle deinen Einstieg während der Leistung. Die Vertiefungslektüre ist freiwillig.\n\nBeobachtung vor Bewertung\nWas hast du tatsächlich beobachtet? Was vermutest du nur?\n\nNutze den Fall und die Schritte auf der Originalseite. Papier und App bleiben gleichwertig.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-c-neu.pdf#page=1"
+        "pdf": "assets/material/pruefen-c-neu.pdf#page=1",
+        "morePages": [2, 3]
       },
       {
         "id": "2",
-        "title": "KORREKTUR · Verdacht entsteht später",
-        "body": "C1 · JETZT / WEITERDENKEN\nRuhig handeln.\nSpäter begründet entscheiden.\nVergleichen Sie Ihre Reaktion mit Teil 5 (S. 15–17) und der Verfahrenskarte A6 (S. 38).\nWahrnehmen\nBeobachtung und Interpretation trennen.\nSichern\nSituation und beobachtbaren Sachverhalt sichern.\nDokumentieren\nA3 nutzen: Beobachtung, Bedingungen, Maßnahme, Erklärung.\nFortsetzen, wenn möglich\nVerfahrensvorschlag; spezielle Vorgaben gehen vor.\nSpäter klären\nSachverhalt, Leistungsform und passende Grundlage prüfen.\nJetzt muss noch nicht entschieden werden,\nob eine Täuschung vorliegt.\nAndere Situation: Das iPad ist zugelassen, generative KI ausdrücklich ausgeschlossen. Auf dem\nBildschirm sehen Sie eine KI-Antwort, die unmittelbar zur Aufgabe gehört.\nWas ist jetzt anders?\nHalten Sie die Unterschiede fest. Nutzen Sie die Einordnung auf S. 16. „Sichern“ bedeutet keine generelle\nBefugnis, private Geräte zu durchsuchen.\nKünftig werde ich zuerst …\nWeiter zu C2, zu C3 oder mit dem eigenen Fall zur Begleitung.",
+        "title": "KORREKTUR · bei der Korrektur",
+        "body": "C2 · BEI DER KORREKTUR\nEin auffälliger Text. Ein Anlass zum Klären.\nUngewohnte Sprache oder eine starke Verbesserung können Fragen auslösen. Sie belegen für sich allein keine unerlaubte KI-Nutzung.\n\nVom Eindruck zum Befund\nWelche konkrete Stelle fällt auf? Welche Information fehlt noch, bevor du entscheidest? Nutze den Fall auf der Originalseite oder arbeite mit einer anonymisierten eigenen Situation.\n\nDie Diagnose bleibt ergebnisoffen. Nutze bei Bedarf die dort genannten Vertiefungsseiten.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-c-neu.pdf#page=2"
+        "pdf": "assets/material/pruefen-c-neu.pdf#page=4",
+        "morePages": [5, 6]
       },
       {
         "id": "3",
-        "title": "Seite 3",
-        "body": "C2 · BEI DER KORREKTUR\n„Das kann doch nicht\nvon ihm sein …“\nSie korrigieren eine häusliche Arbeit aus Klasse 9. Der Text enthält ungewohnten\nWortschatz, sehr glatte Übergänge und einzelne sachliche Brüche. Frühere Texte des\nSchülers waren deutlich schwächer.\nWas macht Sie misstrauisch?\nWas davon beweist tatsächlich etwas?\n„Der Wortschatz ist deutlich anspruchsvoller als sonst.“\n„Das klingt nach ChatGPT.“\n„An dieser Stelle widersprechen sich zwei Aussagen.“\n„Der Schüler kann so etwas nicht schreiben.“\nStreichen Sie gedanklich alles, womit Sie einen Verdacht nicht begründen\nmöchten. Was bleibt übrig?\nErst besprechen. Dann umdrehen.",
+        "title": "C2 · Gespräch",
+        "body": "C2 · FAIR KLÄREN\nEin Gespräch. Keine Vorverurteilung.\nBleiben konkrete, relevante Auffälligkeiten offen, kann ein kurzes Gespräch helfen, Entstehung und eigene Leistung besser einzuordnen.\n\nErgebnisoffen fragen\nNutze den Gesprächsfall und die Reflexionsfragen auf den Originalseiten. Eine ungeklärte Frage ist noch kein feststehendes Ergebnis.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-c-neu.pdf#page=4"
+        "pdf": "assets/material/pruefen-c-neu.pdf#page=7",
+        "morePages": [8]
       },
       {
         "id": "4",
-        "title": "Seite 4",
-        "body": "C2 · BEI DER KORREKTUR / WEITERDENKEN\nWelche Information\nfehlt mir noch?\n1 · Vom Eindruck zum Befund\nNutzen Sie Teil 6 (S. 18–22) und A4 als Orientierung: Auffälligkeiten konkretisieren, Vergleich und\nEntstehung prüfen, alternative Erklärungen berücksichtigen. Was fehlt vor einer Entscheidung?\n2 · Eine Zahl kommt dazu\nNehmen Sie die kleine 92-%-Karte. Besprechen Sie zuerst Ihre Reaktion. Vergleichen Sie danach\nmit der Rückseite und S. 19.\n3 · Ein Gespräch ergebnisoffen lesen\nWählen Sie einen Fall aus Teil 7: Klasse 6 (S. 23), Klasse 8 (S. 24) oder Klasse 10 (S. 25). A5 (S.\n37) hilft beim Blick auf die Gesprächsführung.\nAn welcher Stelle hätten Sie innerlich schon entschieden?\nLesen Sie trotzdem bis zum Ergebnis weiter.\n4 · Erst jetzt: Gesamtwürdigung\nOrdnen Sie den Fall mit A6 (S. 38) ein. Sehen Sie anschließend die anderen Ausgänge auf S. 26 an.\nGRÜN, GELB und ROT sind mögliche Ergebnisse der Klärung.\nBei meinem nächsten Verdachtsfall werde ich zuerst …\nEigener Fall? Anonymisiert zur Begleitung. Schulische Frage? Weiter zu C3.",
+        "title": "C2 · Dein Gespräch",
+        "body": "C2 · DEIN GESPRÄCH\nNutze deine Situation aus der Fallarbeit. Halte fest, wie du den Anlass konkret und ergebnisoffen ansprichst. Eine ungeklärte Frage ist noch kein feststehendes Ergebnis.",
         "note": "Meine Gedanken und Entscheidungen",
-        "pdf": "assets/material/pruefen-c-neu.pdf#page=5"
+        "pdf": "assets/material/pruefen-c-neu.pdf#page=9"
       },
       {
         "id": "c3",
-        "title": "GEMEINSAM · Klärungsbedarf",
-        "body": "Welche Frage sollten wir als Schule gemeinsam klären? C3 ist der Transfer aus der Fallarbeit. Den QR-Code zur gemeinsamen Ergebnissicherung zeigt das Team am Tag.",
+        "title": "C3 · Gemeinsam klären",
+        "body": "C3 · GEMEINSAM KLÄREN\nDamit wir nicht jedes Mal bei null anfangen.\nZum Abschluss sammelst du einen Punkt, der den schulischen Umgang mit KI und Leistungsnachweisen klarer, fairer oder leichter machen würde.\n\nMein Transfer\nWelche Frage nimmst du aus den Fällen und deiner eigenen Praxis mit? Nutze die Transferseite im Originalmaterial. Die App übermittelt deine Notiz nicht automatisch.",
         "note": "Mein schulischer Klärungsbedarf",
-        "pdf": "assets/material/pruefen-c-neu.pdf#page=10"
+        "pdf": "assets/material/pruefen-c-neu.pdf#page=10",
+        "morePages": [11]
       }
     ],
     "resources": [

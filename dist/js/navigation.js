@@ -16,18 +16,44 @@ for (const id of Object.keys(MODULES)) {
   routes[id] = () => moduleView(id);
 }
 
+function viewContext(route) {
+  if (route === 'start' || route === 'orientierung') return '';
+
+  const parent = route.startsWith('pruefen-')
+    ? ['pruefen', 'Prüfen']
+    : route.startsWith('lernen-')
+      ? ['lernen', 'Lernen']
+      : ['momentaufnahme', 'zukunftsatelier', 'logbuch', 'coach-reflexion'].includes(route)
+        ? ['schulentwicklung', 'Schulentwicklung']
+        : null;
+  const labels = {
+    unterricht: 'Unterricht', lernen: 'Lernen', pruefen: 'Prüfen',
+    schulentwicklung: 'Schulentwicklung', selbstlernen: 'Selbstlernen',
+    coaches: 'Coaches', speicher: 'Mein Arbeitsstand', notizen: 'Meine Notizen',
+    orientierung: 'Tagesplan & Räume', ueber: 'Über diese App',
+    'coach-feedback': 'Rückmeldung an die Coaches', 'coach-reflexion': 'Coach-Reflexion'
+  };
+  const title = MODULES[route]?.title || labels[route] || 'Bereich';
+  return `<nav class="view-context" aria-label="Seitenpfad"><a href="#start">Alle Horizonte</a>${parent ? `<span aria-hidden="true">›</span><a href="#${parent[0]}">${parent[1]}</a>` : ''}<span aria-current="page">${esc(title)}</span></nav>`;
+}
+
 function render() {
   const route = location.hash.slice(1) || 'orientierung';
-  $('#main').innerHTML = Object.hasOwn(routes, route) ? routes[route]() : start();
+  const currentRoute = Object.hasOwn(routes, route) ? route : 'start';
+  $('#main').innerHTML = viewContext(currentRoute) + routes[currentRoute]();
 
-  document.querySelectorAll('nav a').forEach(a => {
+  const primaryRoute = currentRoute === 'orientierung' || currentRoute === 'karte-drucken' ? 'orientierung'
+    : ['coaches', 'coach-feedback', 'coach-reflexion'].includes(currentRoute) ? 'coaches'
+      : ['speicher', 'notizen'].includes(currentRoute) ? 'speicher'
+        : currentRoute === 'ueber' ? '' : 'start';
+  document.querySelectorAll('header nav a').forEach(a => {
     a.removeAttribute('aria-current');
-    if (a.hash === '#' + route) a.setAttribute('aria-current', 'page');
+    if (primaryRoute && a.hash === '#' + primaryRoute) a.setAttribute('aria-current', 'page');
   });
 
   document.title = 'KI HORIZONTE · ' + (
     MODULES[route]?.title ||
-    { unterricht: 'Mein Vorhaben', speicher: 'Mein Arbeitsstand', orientierung: 'Der Tag', coaches: 'Coaches', ueber: 'Über diese App' }[route] ||
+    { unterricht: 'Mein Vorhaben', speicher: 'Mein Arbeitsstand', orientierung: 'Der Tag', coaches: 'Coaches', pruefen: 'Prüfen', lernen: 'Lernen', schulentwicklung: 'Schulentwicklung', ueber: 'Über diese App' }[currentRoute] ||
     'Horizonte'
   );
 
@@ -57,6 +83,8 @@ document.addEventListener('input', e => {
 
   const out = target.nextElementSibling;
   if (out?.classList.contains('print-only')) out.textContent = target.value;
+  const noteLabel = target.closest('.note-field')?.querySelector('[data-note-label]');
+  if (noteLabel) noteLabel.textContent = (target.value.trim() ? 'Notiz · ' : 'Notiz hinzufügen · ') + noteLabel.dataset.noteLabel;
 });
 
 async function copyElement(el, text) {
@@ -153,32 +181,13 @@ document.addEventListener('change', async e => {
     return;
   }
 
-  if (!['import', 'material-import'].includes(e.target.id)) return;
-
-  const material = e.target.id === 'material-import';
+  if (e.target.id !== 'import') return;
   const f = e.target.files[0];
   if (!f) return;
 
   try {
     if (f.size > 4000000) throw Error('Diese Datei ist zu groß. Bitte eine passende Arbeits- oder Materialdatei auswählen.');
     const raw = JSON.parse(await f.text());
-
-    if (material) {
-      const m = validateMaterial(raw);
-      const preview = $('#material-preview');
-      if (m.module !== location.hash.slice(1)) throw Error('Diese Materialdatei gehört zu einem anderen Arbeitsweg. Bitte öffne zuerst ' + MODULES[m.module].title + '.');
-      preview.innerHTML = `<div class="subtle"><h3>${esc(m.title)}</h3><p>Öffne das Material erst, wenn es im Ablauf an der Reihe ist. Vorhandene persönliche Notizen bleiben erhalten.</p><button id="apply-material">Erhaltenes Material öffnen</button></div>`;
-      $('#apply-material').onclick = () => {
-        state.materials = state.materials.filter(x => x.id !== m.id);
-        state.materials.push(m);
-        state.materialNotes[m.id] ??= '';
-        save();
-        render();
-        notify('Material geöffnet. Deine bisherigen Notizen bleiben erhalten.');
-      };
-      return;
-    }
-
     const candidate = validate(raw);
     const preview = $('#import-preview');
     preview.innerHTML = `<div class="subtle"><h3>${esc(candidate.fields.titel || 'Arbeitsstand aus den Horizonten')}</h3><p>Beim Übernehmen wird der aktuelle Arbeitsstand auf diesem Gerät ersetzt. Lade ihn vorher herunter, wenn du ihn behalten möchtest.</p><div class="actions"><button id="apply-import">Diesen Arbeitsstand übernehmen</button><button class="secondary" data-action="export">Aktuellen Stand herunterladen</button><button class="secondary" id="cancel-import">Abbrechen</button></div></div>`;
@@ -193,7 +202,7 @@ document.addEventListener('change', async e => {
       e.target.value = '';
     };
   } catch (err) {
-    notify(err instanceof SyntaxError ? 'Die Datei konnte nicht gelesen werden. Bitte eine unveränderte Arbeits- oder Materialdatei auswählen.' : err.message);
+    notify(err instanceof SyntaxError ? 'Die Datei konnte nicht gelesen werden. Bitte eine unveränderte Arbeitsdatei auswählen.' : err.message);
     e.target.value = '';
   }
 });

@@ -26,7 +26,7 @@ Niemand muss doppelt dokumentieren. Arbeitsimpulse können am Papiermaterial bea
 Persönliche Rückmeldung: digital ausfüllen und separat drucken; Abgabe freiwillig. Vier leere A6-Karten auf A4 bleiben als Druckvorlage verfügbar. Längere digitale Texte können beim Druck mehrere Seiten benötigen.
 
 ## Lernen und Begleitung
-Die Teilnehmer-App enthält keine Aufdeckung, beide A/B-Varianten oder Geheimtests. Der separate Begleitordner wird NICHT mit der Teilnehmer-App veröffentlicht oder verteilt. Einzelne Materialtexte werden vom Coach passend zum Ablauf übergeben und im jeweiligen Arbeitsweg geöffnet. ICH DENKE wird mit den Originalmaterialien durch den Coach begleitet.
+Die Teilnehmer-App enthält keine Aufdeckung, beide A/B-Varianten oder Geheimtests. Der separate Begleitordner wird NICHT mit der Teilnehmer-App veröffentlicht oder verteilt. ICH DENKE wird mit den Originalmaterialien durch den Coach begleitet. Danach wählen Teilnehmende ihre Challenges selbst und folgen den dortigen Hinweisen zur Reihenfolge; eine Coach-Dateifreigabe pro Challenge ist nicht vorgesehen. Der Geheimtest bei ÜBEN bleibt bis zum Ende des Trainings getrennt und wird erst dann ausgegeben.
 
 Der konkrete digitale Übergabekanal ist noch offen. Die getrennten Materialdateien sind ein prüfbarer Vorschlag, kein bereits erprobtes Dienst-iPad-Verfahren. Analoge Ausgabe bleibt möglich.
 

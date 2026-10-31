@@ -6,9 +6,9 @@ Die Teilnehmenden prüfen, ob ein KI-Dialog an ihrer eigenen Vorstellung ansetzt
 Leitgedanke: Gute KI-Lernhilfe beginnt mit dem Denken der Lernenden. Die Diagnose der KI bleibt eine überprüfbare Vermutung; überzeugende Sprache begründet keine diagnostische Autorität.
 ## 2. Rahmen und Coach-Rolle
 Frei wählbare individuelle Challenge nach dem gemeinsamen Einstieg ICH DENKE. Es besteht keine Pflicht, alle Challenges zu bearbeiten. Die redaktionelle Ablaufplanung nennt etwa 14–16 Minuten als Orientierung; keine feste Uhrzeit und kein Durchlaufzwang.
-Du sicherst die Reihenfolge und hilfst bei Verständnisfragen zum Arbeitsauftrag. Du erklärst das Phänomen nicht vor der eigenen Erklärung und führst nicht durch suggestive Fragen zur erwarteten Antwort.
+Die Teilnehmenden steuern die Seitenfolge selbst anhand der Hinweise im Material; eine seitenweise Coach-Freigabe ist nicht nötig. Du hilfst bei Verständnisfragen zum Arbeitsauftrag, erklärst das Phänomen aber nicht vor der eigenen Erklärung und führst nicht durch suggestive Fragen zur erwarteten Antwort.
 ## 3. Vorbereitung
-Originalmaterial VERSTEHEN, vollständigen kopierbaren KI-Auftrag, Schreibmöglichkeit und KI-Zugang bereithalten. Die zweite Materialseite erst nach der eigenen Erklärung zugänglich machen. Die Angabe gleicher Temperaturen soll zunächst noch unbekannt sein.
+Originalmaterial VERSTEHEN, vollständigen kopierbaren KI-Auftrag, Schreibmöglichkeit und KI-Zugang bereithalten. Die Teilnehmenden gehen erst nach ihrer eigenen Erklärung zur nächsten Seite weiter; die Angabe gleicher Temperaturen soll zunächst noch unbekannt sein.
 Die drei Wege START, WEITER und EXPERT sind eine Selbstwahl nach Interesse und Vorwissen, keine Einstufung durch den Coach. Das Material enthält einen gedanklichen Fall; ein realer Versuch ist für die Durchführung nicht erforderlich.
 ---
 # Durchführung
@@ -33,7 +33,7 @@ Die KI kann Antworten missverstehen, unpassende Lücken vermuten oder fachlich f
 Ergänzende Impulse: „Welche deiner Aussagen meint die KI genau?“ „Was hast du selbst verändert?“ „Trägt deine Erklärung auch im neuen Fall?“
 Die KI verrät zu früh die Lösung: den Ablaufbruch benennen und den Auftrag erneut eingrenzen; die Erfahrung nicht als unverfälschten Diagnosedialog werten. Eine fachlich starke Person muss keine künstliche Fehlvorstellung erfinden. Bei fachlicher Unsicherheit gezielt fachkundige Unterstützung nutzen.
 ## 11. Individueller Einstieg und Transfer
-Ergänzender Durchführungsvorschlag: Einer später dazukommenden Person nur das Einstiegsphänomen zeigen und die nachfolgenden Seiten schrittweise freigeben. Kennt sie die Temperaturangabe schon, diesen Unterschied bei der Reflexion berücksichtigen.
+Ergänzender Durchführungsvorschlag: Einer später dazukommenden Person den Einstieg kurz erklären und auf die Reihenfolgehinweise im Material verweisen; nachfolgende Seiten öffnet sie selbst. Kennt sie die Temperaturangabe schon, diesen Unterschied bei der Reflexion berücksichtigen.
 Zum Abschluss ein konkretes Beispiel aus dem eigenen Fach für typische Fehlvorstellungen oder ungenaue Erklärungen notieren. Ein neuer eigener Prompt oder ein neues Unterrichtsmaterial ist hier keine Pflicht. Vertiefung einer produktiven Idee ist möglich.
 ## 12. Papier, App und Kurzcheck
 Eigene Erstantwort sichern, bevor weitere Informationen geöffnet werden. Papier und freiwillige App-Notizen sind gleichwertig. Vorher: Seitenfolge und KI-Zugang prüfen. Währenddessen: Selbstdiagnose vor KI-Diagnose. Danach: Transfer ohne KI und kritische Prüfung der Diagnose.
