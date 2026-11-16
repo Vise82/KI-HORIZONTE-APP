@@ -5,7 +5,7 @@ Dein Freiraum
 Selbstlernen eröffnet Raum für Grundlagen, Vertiefung und eigenes Interesse. Die Teilnehmenden wählen selbst, was sie verstehen oder weiter erkunden möchten. Ein vollständiger Kursdurchlauf oder ein zusätzliches Produkt ist nicht vorgeschrieben.
 Als Ergebnis kann eine geklärte Frage, eine hilfreiche Erkenntnis, ein erprobter Gedanke oder ein begründeter nächster Lernschritt genügen. Persönliche Notizen sind freiwillig.
 ## 2. Verbindlicher Rahmen
-Die bereitgestellte App bezeichnet das Modul als „Dein Freiraum“. Sie verweist auf einen freien Arbeitsplatz und das gedruckte Begleitheft bzw. bereitgestellte Heftseiten. Gezieltes Nachlesen genügt; das Heft wird dort nicht durch ein großes PDF ersetzt.
+Die bereitgestellte App bezeichnet das Modul als „Dein Freiraum“. Sie verweist auf einen freien Arbeitsplatz und stellt das Begleitheft gedruckt sowie als PDF bereit. Gezieltes Nachlesen genügt; ein vollständiger Durchlauf ist nicht erforderlich.
 Selbstlernen ist horizontübergreifend zugänglich und kein verpflichtender Vorkurs. Auch aus den LERNEN-Challenges heraus ist der Wechsel zur eigenen Vertiefung möglich. Es gibt keine zusätzlich festgelegte Bearbeitungsdauer.
 ## 3. Deine Aufgabe als Coach
 Du unterstützt die Orientierung, wenn sie gebraucht wird: Interesse klären, vorhandene Ressourcen finden, einen überschaubaren nächsten Schritt wählen. Du erzeugst weder einen neuen Pflichtkurs noch zusätzliche Aufgaben zur Kontrolle der Teilnehmenden.
@@ -16,7 +16,7 @@ Wichtig: Die aktuelle App enthält keinen detaillierten verbindlichen Ablauf ein
 Fragen: „Was möchtest du gerade besser verstehen?“ „Geht es um Grundlagen, eine konkrete Anwendung oder eine vertiefende Frage?“ Eine interessengeleitete Antwort genügt; kein Einstufungstest und keine öffentliche Zuordnung zu Leistungsniveaus.
 Wenn die Person schon ein klares Vorhaben hat, braucht sie keine zusätzliche Einführung. Bei einem sehr breiten Anliegen gemeinsam eine bearbeitbare Frage auswählen.
 ## 5. Vorhandene Ressource auswählen
-Im gedruckten Begleitheft oder in tatsächlich bereitgestellten Heftseiten nach einem passenden Abschnitt suchen. Keine Kapitelnummern, Links oder Kursfunktionen behaupten, die nicht im vorliegenden Material geprüft sind.
+Im gedruckten oder digitalen Begleitheft nach einem passenden Abschnitt suchen. Keine Kapitelnummern oder Kursfunktionen behaupten, die nicht im vorliegenden Material geprüft sind.
 Falls die Organisation zusätzlich einen bestehenden Selbstlernkurs bereitstellt, dessen tatsächlichen Zugang und Passung vor Ort prüfen. Das vorhandene Angebot nutzen, nicht nebenbei einen neuen Kurs entwerfen.
 ## 6. Eigenständig arbeiten lassen
 Lesen, nachdenken, ein Beispiel prüfen oder einen eigenen kleinen Versuch durchführen - je nach Interesse und Ressource. Ein KI-Versuch ist möglich, aber nicht für jedes Selbstlernanliegen nötig.

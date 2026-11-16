@@ -7,5 +7,5 @@ function start(){
       <a class="horizon horizon-link rose" href="#schulentwicklung"><div class="room">C · Zukunftsatelier</div>${visual('dialog',true)}<h2>Schulentwicklung</h2><p>Ich möchte Erfahrungen teilen und freiwillig Gedanken für die gemeinsame Weiterarbeit festhalten.</p><span class="tile-action">Zum Zukunftsatelier</span></a>
       <a class="horizon horizon-link" href="#selbstlernen"><div class="room">Freier Arbeitsplatz</div>${visual('karte',true)}<h2>Selbstlernen</h2><p>Ich möchte Grundlagen erkunden oder meinem eigenen Interesse folgen.</p><span class="tile-action">Selbstlernen starten</span></a>
     </div>
-    ${hasNotes()?`<div class="actions"><a class="button secondary" href="#speicher">Mein Vorhaben wieder aufnehmen</a></div>`:''}`;
+    <div class="actions"><a class="button" href="#coaches">Zu den Coaches</a>${hasNotes()?`<a class="button secondary" href="#speicher">Mein Vorhaben wieder aufnehmen</a>`:''}</div>`;
 }
