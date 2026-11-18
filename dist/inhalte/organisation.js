@@ -67,7 +67,7 @@ const ORGANISATION = {
       "time": ""
     },
     {
-      "title": "Weiterarbeiten & Fertigstellen · parallel Schulentwicklung",
+      "title": "Weiterarbeiten & Fertigstellen · parallel Schulentwicklung · Coachzeit",
       "time": ""
     },
     {
