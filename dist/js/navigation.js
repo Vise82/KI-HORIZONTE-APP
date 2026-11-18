@@ -12,6 +12,34 @@ const routes = {
   ueber: about
 };
 
+const explanationVideoGroups = {
+  orientierung: [
+    { title: 'KI HORIZONTE · Orientierung', src: 'videos/KI_HORIZONTE_Orientierung.mp4' }
+  ],
+  unterricht: [
+    { title: 'Horizont · Unterricht', src: 'videos/Horizont__Unterricht.mp4' }
+  ],
+  lernen: [
+    { title: 'Horizont · Lernen', src: 'videos/Horizont_LERNEN.mp4' }
+  ],
+  pruefen: [
+    { title: 'KI HORIZONTE · Prüfen', src: 'videos/KI-Horizonte__Prüfen.mp4' },
+    { title: 'Prüfen · Täuschungsversuche', src: 'videos/KI_in_der_Schule__Prüfen_Täuschungsversuche.mp4' },
+    { title: 'Prüfen · Globale KI-Prüfungsmodelle', src: 'videos/Horizont Prüfen Globale_KI-Prüfungsmodelle.mp4' },
+    { title: 'Prüfen · Australien', src: 'videos/KI_HORIZONTE Prüfen___Australien.mp4' }
+  ],
+  schulentwicklung: [
+    { title: 'Horizont · Schulentwicklung', src: 'videos/Horizont_Schulentwicklung.mp4' }
+  ]
+};
+
+function videoLibraryMarkup(items) {
+  return `<section class="video-library" aria-labelledby="video-library-title"><div class="video-library-heading"><div class="eyebrow">Zum Einstieg</div><h2 id="video-library-title">Erklärvideos</h2></div><div class="video-library-list">${items.map(video => {
+    const src = esc(encodeURI(video.src));
+    return `<details class="video-item"><summary>${esc(video.title)}</summary><video controls preload="none" playsinline aria-label="${esc(video.title)}"><source src="${src}" type="video/mp4"><p>Dein Browser unterstützt keine MP4-Wiedergabe. <a href="${src}">Video direkt öffnen</a></p></video></details>`;
+  }).join('')}</div></section>`;
+}
+
 for (const id of Object.keys(MODULES)) {
   routes[id] = () => moduleView(id);
 }
@@ -40,7 +68,12 @@ function viewContext(route) {
 function render() {
   const route = location.hash.slice(1) || 'orientierung';
   const currentRoute = Object.hasOwn(routes, route) ? route : 'start';
-  $('#main').innerHTML = viewContext(currentRoute) + routes[currentRoute]();
+  const view = routes[currentRoute]();
+  const videos = explanationVideoGroups[currentRoute];
+  const content = videos
+    ? view.replace(/(<div class="screen-heading">[\s\S]*?<\/div><\/div>)/, (_, heading) => heading + videoLibraryMarkup(videos))
+    : view;
+  $('#main').innerHTML = viewContext(currentRoute) + content;
 
   const primaryRoute = currentRoute === 'orientierung' || currentRoute === 'karte-drucken' ? 'orientierung'
     : ['coaches', 'coach-feedback', 'coach-reflexion'].includes(currentRoute) ? 'coaches'
