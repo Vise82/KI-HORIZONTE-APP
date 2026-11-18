@@ -1,5 +1,8 @@
 function coachProfileMarkup(profile){
   const parts = String(profile || '').split(/\n\n+/).map(part => part.trim()).filter(Boolean);
+  if (parts.length === 1 && /^Meine Rolle:\s*/.test(parts[0])) {
+    return `<p class="coach-role"><strong>Meine Rolle</strong><br>${esc(parts[0].replace(/^Meine Rolle:\s*/, ''))}</p>`;
+  }
   if (parts.length < 3) return `<p>${esc(profile || 'Weitere Informationen ergänzen.')}</p>`;
   const role = parts.slice(2).join('\n\n').replace(/^Meine Rolle:\s*/, '');
   return `<p class="coach-caption">${esc(parts[0])}</p><blockquote>${esc(parts[1])}</blockquote><p class="coach-role"><strong>Meine Rolle</strong><br>${esc(role)}</p>`;
