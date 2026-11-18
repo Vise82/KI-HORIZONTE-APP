@@ -88,7 +88,15 @@ const ORGANISATION = {
       "availability": "",
       "image": "assets/bitmoji-v-sell.png"
     },
-    ...Array.from({ length: 9 }, () => ({
+    {
+      "name": "A. Kubik",
+      "horizon": "Unterricht",
+      "profile": "Meine Rolle:\nIch unterstütze und begleite Euch beim Einsatz von KI zur Entwicklung und Gestaltung von Unterrichtsmaterialien. Gemeinsam entdecken wir Möglichkeiten, wie KI Euch bei der Unterrichtsvorbereitung kreativ, effizient und praxisnah unterstützen kann. Das alles ist angesiedelt im Horizont Unterricht.",
+      "location": "Coachraum",
+      "availability": "",
+      "image": "assets/kubik.png"
+    },
+    ...Array.from({ length: 8 }, () => ({
       "name": "",
       "profile": "",
       "location": "",
@@ -116,7 +124,7 @@ function normalizeCoachProfiles(value) {
     const defaultHorizon = current.horizon ?? (current.name && current.name === ORGANISATION.coaches[index]?.name ? ORGANISATION.coaches[index].horizon : '');
     return {
       "name": String(current.name || '').slice(0, 80),
-      "profile": String(current.profile || '').slice(0, 240),
+      "profile": String(current.profile || '').slice(0, 500),
       "location": String(current.location || '').slice(0, 120),
       "availability": String(current.availability || '').slice(0, 120),
       "image": String(current.image || '').slice(0, 500),
