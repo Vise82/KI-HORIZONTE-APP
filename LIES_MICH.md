@@ -8,7 +8,7 @@ Teilnehmerpaket vollständig entpacken und `dist/index.html` im Browser öffnen.
 ## Was jetzt enthalten ist
 - 22 Ansichten: Startseite, Unterricht, Lernen mit drei Challenge-Anfängen, Prüfen A/B/C, Schulentwicklung einschließlich Momentaufnahme/Arbeitsbogen/Logbuch/Coach-Rückmeldung, Selbstlernen, persönliche Rückmeldekarte, Coaches, Tages-/Raumorientierung und persönliche Arbeitsstände.
 - Original-PDFs im Arbeitszusammenhang; PRÜFEN inklusive 93 Fachkarten, vollständiger Sek-I-Mappe und aktueller Quernavigation. Das Begleitheft ist horizontübergreifend verfügbar.
-- Texte der bestätigten Materialien im Arbeitsbereich, freiwillige digitale Notizen, Kopierhilfen, unabhängiger Export, Wiederaufnahme und Druckansichten.
+- Die Horizontseiten enthalten eine kurze Themeneinordnung und stellen die passenden PDFs als Downloads bereit. Persönliche Notizen, Arbeitsdatei-Export und Wiederaufnahme bleiben verfügbar.
 - IUDICIUM-ähnliche lokale Coach-Redaktion mit Passwortabfrage, zehn Profilplätzen und Profil-Export. Das ist ein lokaler Redaktionsmodus, kein echter GitHub-Pages-Zugriffsschutz.
 - Beschilderung Final 03 mit acht Türschildern und beiden Raumplänen. Alte Beschilderung nicht enthalten.
 - Bestehende handgezeichnete Motive auf Startseite und Bereichs-/Funktionsansichten. Originalbilder unverändert, nur als Ausschnitt im Layout angezeigt. App-Stil bleibt wie bestätigt.

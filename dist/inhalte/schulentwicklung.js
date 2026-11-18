@@ -3,6 +3,7 @@ Object.assign(MODULES, {
     "id": "momentaufnahme",
     "title": "Momentaufnahme",
     "intro": "Vorbereitungsunterlage für Schulleitung und Schulentwicklungsgruppe. Dies ist noch kein ausgefüllter oder aktueller schulischer Ist-Stand.",
+      "intro": "Erfasst gemeinsam, welche KI-Erfahrungen, Regeln und Entwicklungsbedarfe an der Schule bereits bestehen.",
     "steps": [
       {
         "id": "1",
@@ -29,7 +30,7 @@ Object.assign(MODULES, {
   "zukunftsatelier": {
     "id": "zukunftsatelier",
     "title": "Im Zukunftsatelier",
-    "intro": "Für die Nachmittagsgruppe. Die App hält hier persönliche Mitschriften fest; eine gemeinsame Abgabe erfolgt nicht automatisch.",
+    "intro": "Erkundet gemeinsam, was sich durch KI verändert, welche pädagogischen Leitlinien euch wichtig sind und wo Klärungsbedarf besteht.",
     "steps": [
       {
         "id": "1",
@@ -49,7 +50,7 @@ Object.assign(MODULES, {
   "logbuch": {
     "id": "logbuch",
     "title": "Unser Logbuch",
-    "intro": "Nicht jedes Feld muss gefüllt sein. Dieser Stand wird zunächst auf deinem Gerät festgehalten.",
+    "intro": "Haltet fest, was euch bewegt, was ihr weiter erkunden möchtet und was zunächst offenbleiben darf.",
     "steps": [
       {
         "id": "1",

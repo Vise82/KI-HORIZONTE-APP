@@ -2,7 +2,7 @@ Object.assign(MODULES, {
   "pruefen-a": {
     "id": "pruefen-a",
     "title": "A · VERSTEHEN",
-    "intro": "Wähle deinen Einstieg: Prüfziel (S. 1), KI-Anteil (S. 4), Evidenz (S. 7) oder KI-Test (S. 10). Die Bereiche sind keine Pflichtreihenfolge.",
+    "intro": "Untersuche, was deine Aufgabe über das Können zeigt und wie KI-Anteile die Eigenleistung beeinflussen.",
     "steps": [
       {
         "id": "1",
@@ -55,12 +55,16 @@ Object.assign(MODULES, {
         "label": "Originalmaterial als PDF",
         "url": "assets/material/pruefen-a-neu.pdf"
       },
+      {
+        "label": "PRÜFEN · Kopiervorlagen und Arbeitshilfen",
+        "url": "assets/material/02_PRUEFEN_Kopiervorlagen_Arbeitshilfen.pdf"
+      },
     ]
   },
   "pruefen-b": {
     "id": "pruefen-b",
     "title": "B · GESTALTEN",
-    "intro": "Wähle den passenden Einstieg: Prüfziel (S. 1), KI-Rolle (S. 4), Evidenz (S. 7), Überarbeiten (S. 10) oder Gegencheck (S. 13).",
+    "intro": "Entwickle deinen Leistungsnachweis so weiter, dass Prüfziel, KI-Rolle und Eigenleistung zusammenpassen.",
     "steps": [
       {
         "id": "1",
@@ -119,6 +123,10 @@ Object.assign(MODULES, {
         "label": "B Fachkarten Gesamtserie A3 Duplex",
         "url": "assets/material/01_B_Fachkarten_Gesamtserie_A3_Duplex.pdf"
       },
+      {
+        "label": "PRÜFEN · Kopiervorlagen und Arbeitshilfen",
+        "url": "assets/material/02_PRUEFEN_Kopiervorlagen_Arbeitshilfen.pdf"
+      },
     ],
     "prompts": [
       {
@@ -134,7 +142,7 @@ Object.assign(MODULES, {
   "pruefen-c": {
     "id": "pruefen-c",
     "title": "C · HANDELN",
-    "intro": "Wähle deinen Einstieg: während einer Leistung (S. 1), bei der Korrektur (S. 4), im Gespräch (S. 7) oder zum gemeinsamen Klären (S. 10). Die Vertiefungslektüre ist freiwillig.",
+    "intro": "Ordne einen Verdachtsfall ein und wähle passende nächste Schritte für Prüfung, Gespräch und Klärung.",
     "steps": [
       {
         "id": "1",
@@ -177,6 +185,14 @@ Object.assign(MODULES, {
       }
     ],
     "resources": [
+      {
+        "label": "Originalmaterial als PDF",
+        "url": "assets/material/pruefen-c-neu.pdf"
+      },
+      {
+        "label": "PRÜFEN · Kopiervorlagen und Arbeitshilfen",
+        "url": "assets/material/02_PRUEFEN_Kopiervorlagen_Arbeitshilfen.pdf"
+      },
       {
         "label": "Hinweis · Verwendung der gedruckten Hefte",
         "url": "#coaches"

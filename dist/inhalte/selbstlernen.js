@@ -3,6 +3,7 @@ Object.assign(MODULES, {
     "id": "selbstlernen",
     "title": "Dein Freiraum",
     "intro": "Grundlagen erkunden, vertiefen oder dem eigenen Interesse folgen. Suche dir einen freien Arbeitsplatz. Das Begleitheft steht gedruckt und als PDF zur Verfügung.",
+      "intro": "Erkunde Grundlagen, vertiefe ein Thema oder verfolge eine eigene Frage.",
     "steps": [
       {
         "id": "interesse",
@@ -14,6 +15,7 @@ Object.assign(MODULES, {
     "resources": [
       {
         "label": "Begleitheft als PDF ansehen / drucken",
+          "label": "Begleitheft",
         "url": "assets/Begleitheft.pdf"
       }
     ]

@@ -1,6 +1,6 @@
 const routes = {
   start,
-  unterricht: work,
+  unterricht: unterrichtMaterialView,
   speicher: storage,
   orientierung: orientation,
   coaches,
@@ -74,6 +74,23 @@ function render() {
     ? view.replace(/(<div class="screen-heading">[\s\S]*?<\/div><\/div>)/, (_, heading) => heading + videoLibraryMarkup(videos))
     : view;
   $('#main').innerHTML = viewContext(currentRoute) + content;
+  document.querySelectorAll('#main a[href]').forEach(link => {
+    const href = link.getAttribute('href') || '';
+    if (/#page=/i.test(href)) {
+      link.remove();
+      return;
+    }
+    if (!/\.pdf(?:$|[?#])/i.test(href)) return;
+    link.setAttribute('download', '');
+    link.removeAttribute('target');
+    link.removeAttribute('rel');
+    link.textContent = link.textContent.trim()
+      .replace(/Originalseite ansehen\s*\/\s*drucken/gi, 'PDF herunterladen')
+      .replace(/\bPDF\s+(?:ansehen|öffnen)\b/gi, 'PDF herunterladen')
+      .replace(/\s*·\s*Originalseite\b/gi, '')
+      .replace(/\s*\/\s*drucken\b/gi, '');
+    if (!/herunterladen/i.test(link.textContent)) link.textContent = `PDF herunterladen · ${link.textContent.trim()}`;
+  });
 
   const primaryRoute = currentRoute === 'orientierung' || currentRoute === 'karte-drucken' ? 'orientierung'
     : ['coaches', 'coach-feedback', 'coach-reflexion'].includes(currentRoute) ? 'coaches'

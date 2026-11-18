@@ -2,7 +2,7 @@ Object.assign(MODULES, {
   "lernen-verstehen": {
     "id": "lernen-verstehen",
     "title": "VERSTEHEN",
-    "intro": "Nach ICH DENKE frei wählbar. Arbeite selbstständig und folge den Hinweisen zur Reihenfolge im Material.",
+    "intro": "Untersuche eine Verständnislücke und formuliere zuerst selbst, was du noch nicht verstanden hast.",
     "steps": [
       {
         "id": "start",
@@ -21,7 +21,7 @@ Object.assign(MODULES, {
   "lernen-verbessern": {
     "id": "lernen-verbessern",
     "title": "VERBESSERN",
-    "intro": "Nach ICH DENKE frei wählbar. Arbeite selbstständig und folge den Hinweisen zur Reihenfolge im Material.",
+    "intro": "Überarbeite deinen eigenen Text mit KI-Unterstützung, ohne deine Idee abzugeben.",
     "steps": [
       {
         "id": "start",
@@ -40,7 +40,7 @@ Object.assign(MODULES, {
   "lernen-ueben": {
     "id": "lernen-ueben",
     "title": "ÜBEN",
-    "intro": "Nach ICH DENKE frei wählbar. Arbeite selbstständig und folge den Hinweisen zur Reihenfolge im Material.",
+    "intro": "Übe selbstständig mit KI und prüfe, was du schon kannst.",
     "steps": [
       {
         "id": "start",
