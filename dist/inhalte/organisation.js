@@ -96,6 +96,14 @@ const ORGANISATION = {
       "availability": "",
       "image": "assets/kubik.png"
     },
+    {
+      "name": "Y. Wegmann-Ost",
+      "horizon": "LERNEN · ICH DENKE",
+      "profile": "Ich tüftle gern an Aufgaben, mit denen die Schüler auf unterschiedlichen Lernständen selbstständig loslegen können. Besonders mag ich klare Arbeitsaufträge, bei denen die erste Frage möglichst selten „Was sollen wir machen?“ lautet. Wenn ich KI einsetze, frage ich mich: Wer denkt hier eigentlich gerade mehr nach? Sprecht mich gern mit einer halbfertigen Idee an. Ich tüftle gern mit euch daran, bis sie zu eurer Klasse passt.",
+      "location": "Coachraum",
+      "availability": "",
+      "image": "assets/Y. Wegmann-Ost.jpg"
+    },
     ...Array.from({ length: 8 }, () => ({
       "name": "",
       "profile": "",
@@ -108,6 +116,7 @@ const ORGANISATION = {
 };
 
 const COACH_STORAGE_KEY = 'ki-horizonte-coach-profiles-v1';
+const COACH_WEGMANN_MIGRATION_KEY = `${COACH_STORAGE_KEY}-y-wegmann-v2`;
 
 function normalizeCoachProfiles(value) {
   const source = Array.isArray(value) ? value : (Array.isArray(value?.coaches) ? value.coaches : []);
@@ -136,8 +145,22 @@ function normalizeCoachProfiles(value) {
 function loadCoachProfiles() {
   try {
     const raw = localStorage.getItem(COACH_STORAGE_KEY);
-    if (!raw) return normalizeCoachProfiles(ORGANISATION.coaches);
-    return normalizeCoachProfiles(JSON.parse(raw));
+    const defaults = normalizeCoachProfiles(ORGANISATION.coaches);
+    if (!raw) {
+      localStorage.setItem(COACH_WEGMANN_MIGRATION_KEY, '1');
+      return defaults;
+    }
+    const profiles = normalizeCoachProfiles(JSON.parse(raw));
+    if (localStorage.getItem(COACH_WEGMANN_MIGRATION_KEY) !== '1') {
+      const newCoach = defaults.find(coach => coach.name === 'Y. Wegmann-Ost');
+      const savedCoach = profiles.find(coach => coach.name === newCoach?.name);
+      const emptyIndex = profiles.findIndex(coach => !coach.name && !coach.profile && !coach.location && !coach.availability && !coach.image && !coach.horizon);
+      if (newCoach && savedCoach && !savedCoach.location) savedCoach.location = newCoach.location;
+      else if (newCoach && !savedCoach && emptyIndex >= 0) profiles[emptyIndex] = newCoach;
+      localStorage.setItem(COACH_STORAGE_KEY, JSON.stringify({ coaches: profiles }));
+      localStorage.setItem(COACH_WEGMANN_MIGRATION_KEY, '1');
+    }
+    return profiles;
   } catch {
     return normalizeCoachProfiles(ORGANISATION.coaches);
   }
