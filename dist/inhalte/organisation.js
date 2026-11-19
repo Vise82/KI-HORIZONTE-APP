@@ -86,7 +86,7 @@ const ORGANISATION = {
       "profile": "Madame Prompt… pardon?!\n\n„Eine Unterrichtsidee hätte gereicht.\nDie Bildungsrevolution machen wir nach der Pause.“\n\nMeine Rolle:\nFür alle Horizonte zuständig. Für den Durchblick auch.",
       "location": "Überall und nirgendwo – ich wusele wahrscheinlich gerade irgendwo herum.",
       "availability": "",
-      "image": "assets/bitmoji-v-sell.png"
+      "image": "assets/02_Rundes_Portraet_V. Sell.png"
     },
     {
       "name": "A. Kubik",
